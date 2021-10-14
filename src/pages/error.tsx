@@ -1,7 +1,7 @@
 import { Image, Flex, Text, Link as ChakraLink } from "@chakra-ui/react";
 import Link from "next/link";
 
-export function Error() {
+export default function Error() {
   return (
     <Flex
       maxW="1120px"
